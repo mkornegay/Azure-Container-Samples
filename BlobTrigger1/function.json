@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "InputBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "mjklearncontainer/{name}",
+      "connection": "StorageConnectString"
+    }
+  ]
+}
