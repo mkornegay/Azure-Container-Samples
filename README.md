@@ -15,7 +15,15 @@ This is a simple Azure Function written in Powershell that demonstrates how to s
 6. When the function finishes, you can go to your Azure portal container instances and note the FQDN of your container instance.
 7. Enter the address in your browser with port 3000 as follows:
   
-    [http://](http://mjk-test-container.westus.azurecontainer.io:3000/)
+    http://<FQDN>:3000/
 
 # Creating a Container Image
-Although you can get a container image from anywhere, I have created a separate repo where you can clone an image ready to go.  The repo is 
+Although you can use any container image you would like, I have created a separate repo where you can clone a simple Node.js application image.  
+(This is the Docker getting-started image modified to upload to Azure Container Registry.)
+
+Clone this repo to get the image: https://github.com/mkornegay/getting-started
+  
+You can get a fresh copy of the repo from the source in the Docker Getting Started documentation. https://github.com/docker/getting-started.git
+  
+  
+  
